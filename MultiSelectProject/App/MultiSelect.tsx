@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './styles/MultiSelect.css';
-import { MultiselectProps } from './types';
+import "./MultiSelect.css"
+import type { MultiselectProps } from './types';
 
 const Multiselect: React.FC<MultiselectProps> = ({
   options, // Доступные опции

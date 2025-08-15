@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Multiselect from './MultiSelect';
-import './styles/MultiSelect.css';
+import './MultiSelect.css';
 
 // Интерфейс для временных зон
 interface Timezone {
